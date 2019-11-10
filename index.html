@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="https://public.feranet.fr/pub/bootstrap/dist/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="style.css">
+
+  <title>Calculatrice</title>
+</head>
+<body>
+
+<div class="container">
+  <div class="row justify-content-md-center">
+    <div class="col-lg-5 mt-5 text-center">
+      <div class="txtCalculator shadow rounded">
+
+        <div class="d-flex flew-row mt-2 mb-2">
+          <div class="p-5 h-CalculatorResult mt-2 ml-2 mr-2 flex-fill bg-dark shadow-sm rounded">
+            <pre id="resultCalculator" class="text-light"></pre>
+          </div>
+        </div>
+
+        <div class="d-flex flew-row mt-3 mb-2">
+          <div id="del" class="unselect selectCalculatorHover p-2 ml-2 mr-2 flex-fill bg-warning shadow-sm rounded">C</div>
+          <div id="clrTxt" class="unselect selectCalculatorHover p-2 mr-2 flex-fill bg-danger shadow-sm rounded">AC</div>
+        </div>
+
+        <div class="d-flex flex-row mt-3 mb-2">
+          <div id="num7" class="unselect selectCalculatorHover p-2 ml-2 mr-2 flex-fill shadow-sm rounded">7</div>
+          <div id="num8" class="unselect selectCalculatorHover p-2 mr-2 flex-fill shadow-sm rounded">8</div>
+          <div id="num9" class="unselect selectCalculatorHover p-2 mr-2 flex-fill shadow-sm rounded">9</div>
+          <div id="op3" class="unselect selectCalculatorHover p-2 mr-2 flex-fill shadow-sm rounded">&#247;</div>
+        </div>
+
+        <div class="d-flex flex-row mt-2 mb-2">
+          <div id="num4" class="unselect selectCalculatorHover p-2 ml-2 mr-2 flex-fill shadow-sm rounded">4</div>
+          <div id="num5" class="unselect selectCalculatorHover p-2 mr-2 flex-fill shadow-sm rounded">5</div>
+          <div id="num6" class="unselect selectCalculatorHover p-2 mr-2 flex-fill shadow-sm rounded">6</div>
+          <div id="op2" class="unselect selectCalculatorHover p-2 mr-2 flex-fill shadow-sm rounded">&#215;</div>
+        </div>
+
+        <div class="d-flex flex-row mt-2 mb-2">
+          <div id="num1" class="unselect selectCalculatorHover p-2 ml-2 mr-2 flex-fill shadow-sm rounded">1</div>
+          <div id="num2" class="unselect selectCalculatorHover p-2 mr-2 flex-fill shadow-sm rounded">2</div>
+          <div id="num3" class="unselect selectCalculatorHover p-2 mr-2 flex-fill shadow-sm rounded">3</div>
+          <div id="op1" class="unselect selectCalculatorHover p-2 mr-2 flex-fill shadow-sm rounded">&#8722;</div>
+        </div>
+
+        <div class="d-flex flex-row mt-2 mb-2">
+          <div id="decp" class="unselect selectCalculatorHover p-2 ml-2 mr-2 mb-2 flex-fill shadow-sm rounded">&#044;</div>
+          <div id="num0" class="unselect selectCalculatorHover p-2 mr-2 mb-2 flex-fill shadow-sm rounded">0</div>
+          <div id="eq" class="unselect selectCalculatorHover p-2 mr-2 mb-2 flex-fill shadow-sm rounded">&#61;</div>
+          <div id="op0" class="unselect selectCalculatorHover p-2 mr-2 mb-2 flex-fill shadow-sm rounded">&#43;</div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<script defer src="https://public.feranet.fr/pub/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="https://public.feranet.fr/pub/jquery/jquery.min.js"></script>
+<script src="https://public.feranet.fr/pub/popper/dist/umd/popper.min.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
