@@ -1,0 +1,19 @@
+.unselect{user-select:none;-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;}
+
+.txtCalculator {
+  font-size: 25px;  
+}
+
+.selectCalculatorHover:hover{
+	cursor: pointer;
+	box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
+}
+
+.selectCalculatorHover {
+  width: 100px;
+}
+
+.h-CalculatorResult {
+	font-size: 32px;
+	height: 130px;
+}
